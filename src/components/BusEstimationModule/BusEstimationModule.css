@@ -1,0 +1,159 @@
+.bus-estimation-containerr {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* border: 1px solid #ffffff00; /* Add border 
+  border-radius: 10px; Add border-radius */
+  /* padding: 20px; Add padding */
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); Add box-shadow */
+  transition: transform 1s ease-in-out;
+  margin: 30px;
+  margin-left:30px;
+}
+
+button {
+padding: 10px 20px;
+background-color: #23548c;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+align-items: center;
+}
+
+button:hover {
+background-color: #346090;
+}
+
+
+/* CSS for the icon */
+.icon {
+  font-size: 24px;
+  position: sticky;
+  color: #110f52; /* Change the color as needed */
+}
+
+/* CSS for the card */
+.cardd {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 35px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fffefefb;
+  width: 100%; /* Set card width to 100% */
+  /* margin-top: 20px; Add margin between cards */
+
+}
+
+/* CSS for the container inside the card */
+.card-content {
+  display: flex;
+  flex-direction: row; /* Change flex direction to column */
+  align-items: center;
+}
+
+/* CSS for timestamp and bus number */
+.timestamp,
+.bus-number {
+  margin: 10px 0; /* Add margin between timestamp and bus number */
+  width: 100%; /* Set width to 100% */
+}
+
+.timestamp h3,
+.bus-number h3 {
+  margin: 0;
+}
+
+/* Add this style to ensure text aligns to the center of the page */
+/* .bus-estimation-container {
+  width: 380px; /* Set width to 100% 
+  text-align: center;
+} */
+
+
+/* .source-destination h2 {
+  margin-right: 10px;
+  margin-left: 10px; 
+} */
+
+/*Busgallary*/
+
+.bus-gallery-container {
+  display: flex;
+  align-items: center;
+  /*justify-content: space-between;*/
+  overflow: hidden;
+  position: relative;
+  flex-direction: row;
+  
+}
+
+.bus-gallery {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  transition: transform 1s ease-in-out; /* Adjust the speed as needed */
+}
+
+.bus-gallery .bus-item {
+  max-width: 33.33%; /* Assuming 3 items are shown at a time */
+  transition: transform 1s ease-in-out; /* Adjust the speed as needed */
+  background:#ffffff00;
+}
+.scrol-button {
+  position:absolute; 
+  top: 50%;
+  transform:translateY(-50%);
+  font-size: 24px;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 1;
+  width: 80px; 
+  height: fit-content; 
+   margin-left: 50px;
+  margin-right: 50px;
+}
+
+.left-findd{
+  left: 10px; 
+  /* transform:translateY(-50%); */
+}
+
+.right-findd {
+  right: 10px; 
+  /* transform:translateY(+50%); */
+}
+
+
+/* BusEstimationModule.css */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s forwards;
+}
+
+.fade-out {
+  animation: fadeOut 0.5s forwards;
+}
+

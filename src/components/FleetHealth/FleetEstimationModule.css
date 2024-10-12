@@ -1,0 +1,29 @@
+.bus-estimation-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc; /* Add border */
+  border-radius: 10px; /* Add border-radius */
+  padding: 20px; /* Add padding */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box-shadow */
+  transition: transform 1s ease-in-out;
+  background-color: rgba(205, 222, 247, 0.363); /* Adjust background color and opacity */
+  backdrop-filter: blur(10px); /* Add backdrop filter for glass effect */
+}
+
+.icon {
+  font-size: 24px;
+  position: sticky;
+  color: #110f52; /* Change the color as needed */
+}
+
+.cardd {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 35px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.95); /* Adjust background color and opacity */
+  width: 100%; /* Set card width to 100% */
+  margin-top: 20px; /* Add margin between cards */
+}

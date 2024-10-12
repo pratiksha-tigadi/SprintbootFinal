@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #263A73;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.content {
+    text-align: center;
+    background-color: #263A73;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+select {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.status-info {
+    margin-top: 20px;
+    background-color: #263A73;
+    color: #263A73;
+    padding: 10px;
+    border-radius: 5px;
+}

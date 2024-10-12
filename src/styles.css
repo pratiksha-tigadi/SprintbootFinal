@@ -1,0 +1,11 @@
+/* styles.css */
+
+.body-login {
+    background: url('./components/assets/background1.jpg') no-repeat fixed center;
+    background-size: cover;
+  }
+  
+  .body-homepage {
+    background: #fff;
+  }
+  

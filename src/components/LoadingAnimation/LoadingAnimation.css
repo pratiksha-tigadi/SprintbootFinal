@@ -1,0 +1,38 @@
+/* LoadingAnimation.css */
+
+.loading-animation-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    border:0;
+  }
+  
+  .loading-animation-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70%;
+    border:0;
+    z-index: -1; /* Move the background behind the content */
+  }
+  
+  .loading-animation-content {
+    /* Adjust the size and position of the content as needed */
+    width: 50px;
+    height: 50px;
+    border:0;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+  }
+  

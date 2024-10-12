@@ -1,0 +1,65 @@
+/* TicketGeneration.css */
+
+.bus-estimation-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #426ba8;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin: 20px auto;
+  }
+  
+  .source-destination {
+    margin-bottom: 20px;
+  }
+  
+  .icon {
+    vertical-align: middle;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .ticket-info {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+  }
+  
+  .ticket-info h2 {
+    margin-bottom: 20px;
+  }
+  
+  .ticket-info p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .qr-code img {
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+  }
+  
